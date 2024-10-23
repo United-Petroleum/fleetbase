@@ -41,6 +41,14 @@
         {
             "type": "composer",
             "url": "https://registry.fleetbase.io"
+        },
+        {
+            "type": "path",
+            "url": "../packages/core-api"
+        },
+        {
+            "type": "path",
+            "url": "../packages/fleetops"
         }
     ],
     "autoload": {

@@ -3,6 +3,9 @@
 # Exit the script as soon as a command fails
 set -e
 
+# Generate App Key
+php artisan key:generate
+
 # Create mysql databases if none exists
 php artisan mysql:createdb
 
